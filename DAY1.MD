@@ -2,6 +2,7 @@
 
 ## TIME-COMPLEXITY -> O(n) SPACE-COMPLEXITY -> O(n)
 
+>
 >  int[] left = new int[arr.length];
 >      for(int i = 1 ; i < left.length ; i++){
 >           left[i] = arr[i-1] + left[i-1];
@@ -28,12 +29,14 @@
 >              leftSum+=nums[i];
 >          }
 >          return -1;
+> 
 
 
 # 1013. Partition Array Into Three Parts With Equal Sum
 
 ## TIME-COMPLEXITY -> O(N) SPACE-COMPLEXITY -> O(1)
 
+>
 > public boolean canThreePartsEqualSum(int[] arr) {
 >        int total = 0;
 >        for(int i : arr){
@@ -58,3 +61,4 @@
 >
 >        return false;
 >    }
+> 
